@@ -1,0 +1,27 @@
+# 言語非依存の汎用ベース。言語/ツール固有の無視設定はプロジェクトに応じて追記する。
+
+# --- env ---
+.env
+.envrc
+
+# --- Build output（汎用） ---
+/bin/
+/dist/
+/build/
+
+# --- Logs ---
+*.log
+
+# --- Editor/IDE ---
+# .idea/
+# .vscode/
+
+# --- OS / Editor (global) ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
