@@ -34,7 +34,6 @@ lint/format 用の VS Code 拡張機能(`biomejs.biome`、`charliermarsh.ruff`�
 
 ## コピーした後の変更
 
-- 言語のツールチェーンは、`Dockerfile` か `devcontainer.json` の `features` に追記する。
 - ワークスペースはコンテナ内 `/workspace` にマウントされる(`docker-compose.yml` の `../:/workspace:cached`)。
 - web アプリ等でポート転送が必要な場合は、`docker-compose.yml` の `ports` と `devcontainer.json` の `forwardPorts` に追記する。
 - DB 等の追加サービスが必要な場合は `docker-compose.yml` に service を追記する。
