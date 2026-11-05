@@ -1,7 +1,5 @@
 # devcontainers の方針と構成
 
-このリポジトリが何を管理し、base の devcontainer が何を導入するかを説明する。コピーして使う手順は [devcontainers の README](../README.md) に従う。
-
 ## 方針
 
 - devcontainer は言語非依存の `base` 1 つのみを管理する。言語別・アプリ形式別の devcontainer は管理が煩雑になるため置かない。言語固有のツールや設定は、コピー後に各プロジェクトの `Dockerfile` や `devcontainer.json` に追記する。
